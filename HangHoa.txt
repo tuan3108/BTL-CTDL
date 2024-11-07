@@ -1,0 +1,76 @@
+15
+001
+Laptop Dell
+Dien tu
+15000000
+50
+002
+iPhone 13
+Dien thoai
+20000000
+30
+003
+MacBook Pro
+Dien tu
+45000000
+20
+004
+Samsung S21
+Dien thoai
+18000000
+40
+005
+TV Sony 4K
+Dien tu
+25000000
+15
+006
+AirPods Pro
+Phu kien
+5500000
+100
+007
+Apple Watch
+Dong ho
+12000000
+70
+008
+Loa Bluetooth
+Phu kien
+3500000
+150
+009
+Sony A6400
+Dien tu
+24000000
+25
+010
+May giat LG
+Dien gia dung
+9000000
+10
+011
+Tu lanh Samsung
+Dien gia dung
+18000000
+5
+012
+Lo vi song
+Dien gia dung
+3500000
+12
+013
+iPad Pro
+Dien tu
+30000000
+60
+014
+O cung SSD Samsung
+Phu kien
+3000000
+80
+015
+Chuot khong day
+Phu kien
+500000
+200
