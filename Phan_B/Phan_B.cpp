@@ -2,14 +2,11 @@
 #include <climits>
 using namespace std;
 
-// Cài đặt Binary Heap
 class BinaryHeap {
 private:
     int* heap;
     int capacity;
     int size;
-
-    // Các hàm helper
     int parent(int i) { return (i - 1) / 2; }
     int leftChild(int i) { return 2 * i + 1; }
     int rightChild(int i) { return 2 * i + 2; }
@@ -81,7 +78,6 @@ public:
     }
 };
 
-// Cài đặt Priority Queue sử dụng Binary Heap
 class PriorityQueue {
 private:
     BinaryHeap* heap;
@@ -116,7 +112,6 @@ public:
     }
 };
 
-// Cấu trúc để lưu trữ cạnh trong đồ thị
 struct Edge {
     int dest;
     int weight;
@@ -125,7 +120,6 @@ struct Edge {
     Edge(int d, int w) : dest(d), weight(w), next(nullptr) {}
 };
 
-// Cấu trúc đỉnh trong đồ thị
 class Vertex {
 public:
     Edge* head;
@@ -139,7 +133,6 @@ public:
     }
 };
 
-// Cấu trúc đồ thị
 class Graph {
 private:
     int V;
@@ -216,7 +209,6 @@ public:
 };
 
 int main() {
-    // Khởi tạo đồ thị với số đỉnh và các cạnh
     Graph g(5);
     g.addEdge(0, 1, 2);
     g.addEdge(0, 3, 6);
