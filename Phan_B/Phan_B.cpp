@@ -161,7 +161,6 @@ public:
         vertices[dest].addEdge(src, weight);
     }
 
-    // Thuật toán Prim
     void primMST() {
         int* key = new int[V];
         int* parent = new int[V];
